@@ -3,13 +3,9 @@ name = "mcp-server-template"
 version = "0.1.0"
 description = "Python MCP Server template"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 authors = [{ name = "Alpic" }]
 keywords = ["mcp", "llm", "alpic", "python"]
 dependencies = [
-    "aequitas>=1.0.0",
-    "black>=25.1.0",
     "mcp",
-    "pandas>=2.3.2",
-    "sqlalchemy>=2.0.43",
 ]
